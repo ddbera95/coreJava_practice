@@ -1,10 +1,20 @@
 public class Test {
 
 
+Test(){
+    System.out.println("cunstructor");
+}
+    {
+
+        System.out.println("block");
+        m1();
+    }
+    public void m1(){
+        System.out.println(i);
+    }
+  int i = 10;
     public static void main(String[] args){
 
-        Object s  = System.console().readLine();
-        char c = (char)65537;
-        System.out.println(s.toString());
+      Test x = new Test();
     }
 }
