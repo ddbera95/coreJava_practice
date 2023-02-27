@@ -21,8 +21,16 @@ class B extends  A{
 
 public class Main {
     public static void main(String[] args) {
-       A b = new B();
-       b.doIt();
+//       A b = new B();
+//       b.doIt();
+
+
+        try {
+            throw new ArithmeticException();
+        }
+        finally {
+            System.out.println("finally");
+        }
         
 
     }
