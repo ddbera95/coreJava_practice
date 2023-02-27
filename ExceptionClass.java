@@ -6,7 +6,7 @@ public class ExceptionClass {
 
         exp e = new exp();
 
-        e.method();
+        //e.method();
 
     }
 }
